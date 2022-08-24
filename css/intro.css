@@ -1,0 +1,32 @@
+.container.intro{
+    display: flex;
+    align-items: center;
+    padding-bottom: 244px;
+    flex-direction: row;
+    padding-bottom: 210px;
+    max-width: 1400px;
+    
+    
+}
+.intro__inner{
+    max-width: 481px;
+    padding-right: 220px;
+
+}
+.intro__title{
+    
+    width: 481px;
+    margin: 0;
+    padding-bottom: 25px;
+
+}
+.intro.second-title{
+    width: 450px;
+    padding-bottom: 36px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.intro__img-container{
+    margin-right: 140px;
+}

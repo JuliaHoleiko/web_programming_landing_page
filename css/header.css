@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.header__nav ul{
+    display: flex;
+}
+
+.header__nav-item{
+    margin-right: 60px;
+    font-size: 18px;
+    color: #1F1534;
+    font-weight: 400;
+    opacity: 50%;
+    line-height: 23px;
+}
+.home{
+    opacity: 100%;    
+}
