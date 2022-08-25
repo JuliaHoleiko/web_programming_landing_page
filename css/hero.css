@@ -1,0 +1,27 @@
+.container.hero{
+    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 84px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 210px;
+    background: url(../images/element.svg);
+    background-image: url(../images/element.svg);
+    background-repeat: no-repeat;
+    background-position: left top 100px ;
+}
+.hero__inner{
+    max-width: 445px;
+   
+    
+    
+}
+.hero__title{
+    font-weight: 700;
+    font-size: 48px;
+}
+.hero__button{
+    background: #458FF6;
+    color: #FFFFFF;
+}
