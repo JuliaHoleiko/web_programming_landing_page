@@ -3,6 +3,7 @@ body{
     color:black;
 }
 
+
 a{
     text-decoration: none;
     color: black;
@@ -21,34 +22,57 @@ button{
     line-height: 60px;
     border: 1.4px solid #458FF6;
     border-radius: 55px;
+    
 
 }
+button:hover{
+    animation: scaling 1s linear infinite;
+}
+
+
 
 h2{
     font-weight: 700;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 56px;
 }
 h3{
     font-weight: 700;
-    font-size: 24px;
-    line-height: 56px;
-    margin: 0 0 0 38px;
+    font-size: 1.5rem;
+    
+ 
 }
+img{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 760px) {
+    :root{
+        font-size: 12px;
+    }
+    button{
+        width: 280px;
+
+
+    }
+    
+    
+}
+
+
+
 .second-title{
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 30px;
     color: #7D7987;
 }
 
 
 
-
-
 .paragraph{
     font-weight: 300;
-    font-size: 21px;
+    font-size: 1.313rem;
     line-height: 32px;
     color: #7D7987;
 }
@@ -56,9 +80,15 @@ h3{
     margin: 0 auto;
     max-width: 1110px;
 }
+@media screen and (max-width: 1124px) {
+    .container{
+        padding: 0 40px;
+    }
+    
+}
 .separated-line{
     height: 2px;
-    width: 56px;
+    width: 3.5rem;
     border-radius: 5px;
     background-color: black;
     

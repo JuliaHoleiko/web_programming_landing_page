@@ -13,15 +13,56 @@
 }
 .hero__inner{
     max-width: 445px;
-   
-    
     
 }
 .hero__title{
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
 }
 .hero__button{
     background: #458FF6;
     color: #FFFFFF;
+}
+.hero__button__container.second{
+    display: none;
+}
+.hero__img-container{
+    animation: scaling 4s linear infinite;
+}
+@media screen and (max-width:760px) {
+   
+    .hero__title{
+        font-size: 2.75rem;
+
+    }
+    .container.hero{
+        background:none ;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+        
+    }
+    
+}
+@media screen and (max-width:550px) {
+    .container.hero{
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .hero__img-container > img{
+        max-width: 70%;
+
+
+    }
+    .hero__button__container{
+        display: none;
+    }
+    .hero__button__container.second{
+        padding: 20px 0;
+        display: block;
+    }
+    .hero{
+        min-height: 100vh;
+    }
+
 }

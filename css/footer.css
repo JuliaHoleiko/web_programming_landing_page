@@ -1,4 +1,4 @@
-.separated__block{
+/* .separated__block{
     height: 77px;
     background-image: url(../images/element3.svg);
     background-repeat: no-repeat;
@@ -17,6 +17,7 @@
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
     height: 165px;
     
+    
 }
 
 .footer.container{
@@ -24,20 +25,169 @@
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    padding: 0 0 0 227px;
+    padding: 0 0 0 14rem;
     
 }
 .footer__nav-item{
     color: white;
     font-weight: 700;
     font-size: 20px;
-    line-height: 60px;
-    padding-left: 170px;
+    
+    /*padding-left: 170px; 
 
 }
 .footer__link{
     color:white;
 }
+.footer__nav{
+    width: 500px;
+}
+.footer__nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+@media screen and (max-width:1100px) {
+    .footer.container{
+        padding: 0 20px;
+    }
+    .footer{
+        background: none;
+    }
+
+}
+@media screen and (max-width:760px) {
+    .footer{
+        background: none;
+    }
+    .separated__block{
+        display: none;
+    }
+    .footer__nav-item{
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .footer__nav{
+        width: 100vw;
+    }
+    
+    .footer.container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        
+    }
+    .footer__nav ul{
+        display: flex;
+
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        
+    }
+} */
+.separated__block{
+    height: 77px;
+    background-image: url(../images/element3.svg);
+    background-repeat: no-repeat;
+    background-position: right 80px top  ;
+}
+    
+.footer{
+    height: 165px;
+    background-image: url(../images/element2.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 70px;
+    
+   
+}
+.footer__container{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    height: 165px;
+    
+    
+}
+.footer.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    padding-top: 20px ;
+    margin: 0;
+    padding: 0 0 0 14rem;
+}
+
 .footer__nav ul{
     display: flex;
 }
+.footer__nav li a{
+    text-align: end;
+}
+.footer__nav-item > a{
+    margin-right: 160px;
+    text-align: end;
+    
+    line-height: 23px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+@media screen and (max-width:1100px) {
+    .footer.container{
+        padding: 0 20px;
+    }
+    .footer{
+        background: none;
+    }
+    .footer__nav-item > a{
+        font-size: 1rem;
+
+    }
+
+}
+@media screen and (max-width:1000px) {
+    .footer{
+        background: none;
+    }
+    
+    .separated__block{
+        display: none;
+    }
+    .footer__nav-item{
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .footer__nav-item >a{
+        margin: 0;
+    }
+    
+    .footer__nav{
+        width: 100vw;
+    }
+    
+    
+    .footer.container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .footer__nav ul{
+        display: flex;
+
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        
+    }
+} 
